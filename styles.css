@@ -1,0 +1,121 @@
+/* ===== FONT IMPORTS ===== */
+
+/* Atkinson Hyperlegible */
+@import url(https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:regular,italic,700,700italic);
+
+/* ===== SHAPES TESTING ===== */
+
+.square {
+  height: 50px;
+  width: 80px;
+  background-color: green;
+  margin: 10px;
+  padding: 5px;
+}
+.square:hover {
+  background-color: blue;
+}
+
+/* ===== COLOR DEFINITIONS ===== */
+
+body {
+  --darkred: #960018;
+  --lightgreen: #d0f0c0;
+}
+
+body {
+  background-color: snow;
+  margin: 10px;
+}
+
+/* ===== FONT STYLES ===== */
+
+P, h1, h2, h3, h4, h5, h6, li, a {
+  font-family: 'Atkinson Hyperlegible';
+  padding: 5px;
+  vertical-align: middle;
+}
+
+ /* p {}  */
+
+h1 {
+  font-size: 40px;
+  color:teal;
+}
+
+h2 {
+  color:blue;
+}
+
+h6 {
+  text-align: left;
+}
+
+
+
+
+#aboutme {
+  color: red;
+  font-size: 20px;
+
+}
+
+
+/* ===== LINK STYLES ===== */
+
+a {
+  text-decoration: none; 
+}
+
+/* unvisited link */
+a:link {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid var(--darkred);
+  color: var(--darkred);
+  background-color: snow;
+}
+
+/* visited link */
+a:visited {
+  color: tomato;
+  text-decoration:underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: snow;
+  background-color: var(--darkred);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+
+/* ===== LIST AND MENU STYLES ===== */
+
+
+li {
+  list-style-type: none;
+}
+
+
+/* ===== BLOCK AND COLUMN STYLES ===== */
+
+.column {
+  background-color: teal;
+}
+
+
+header {
+  margin: 10px;
+  background-color: #AEECEF;
+}
+
+footer {
+  margin: 10px;
+  background-color: #FBCEB1;
+}
