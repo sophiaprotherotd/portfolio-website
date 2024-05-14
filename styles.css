@@ -119,3 +119,45 @@ footer {
   margin: 10px;
   background-color: #FBCEB1;
 }
+
+
+
+
+
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.video video{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.txt{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  mix-blend-mode: multiply;
+}
+
+.txt h1{
+  text-transform: uppercase;
+  font-size: clamp(5rem, 10vw, 10rem);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.5);
+}
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <body style="overflow: hidden">
+
+    <!-- add Rubik font family -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+    </style> 
+
+    <!-- inline video player container styles -->
+    <video
+      autoplay
+      muted
+      loop
+      preload
+      style="
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -200;
+        left: -40;
+        margin: 0;
+        width: 100%;
+        min-height: 100vh;
+        padding: 0 30px;
+      "
+    >
+    <!-- video source -->
+      <source
+        src="https://video.wixstatic.com/video/b7180d_8a8e784eb30e4c0a839f32b26199b3c0/1080p/mp4/file.mp4"
+      />
+    </video>
+
+    <!-- inline text styles to make overlay -->
+    <h1
+      style="
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        font-size: 4rem;
+        -webkit-text-stroke: 1px blue;
+        text-shadow: 2px 2px 2px black;
+        font-family: 'Rubik';
+        text-transform: uppercase;
+        text-align: left;
+        background: white;
+        mix-blend-mode: screen;
+      "
+    >
+      Sophia Prothero
+    </h1>
+  </body>
+</html>
